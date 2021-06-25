@@ -6,19 +6,19 @@
 
 #### Attributes:
 
-##### name
+#### name
 
 (str) The name of the drink.
 
 e.g. “latte”
 
-##### cost
+#### cost
 
 (float) The price of the drink.
 
 e.g 1.5
 
-##### ingredients
+#### ingredients
 
 (dictionary) The ingredients and amounts required to make the drink.
 
@@ -26,15 +26,15 @@ e.g. {“water”: 100, “coffee”: 16}
 
 ### Menu Class
 
-##### Methods:
+#### Methods:
 
-##### get_items()
+#### get_items()
 
 Returns all the names of the available menu items as a concatenated string.
 
 e.g. “latte/espresso/cappuccino”
 
-##### find_drink(order_name)
+#### find_drink(order_name)
 
 Parameter order_name: (str) The name of the drinks order.
 
@@ -44,7 +44,7 @@ Searches the menu for a particular drink by name. Returns a MenuItem object if i
 
 ##### Methods:
 
-##### report()
+#### report()
 
 Prints a report of all resources.
 
@@ -76,7 +76,7 @@ Deducts the required ingredients from the resources.
 
 #### Methods:
 
-##### report()
+#### report()
 
 Prints the current profit
 
@@ -84,7 +84,7 @@ e.g.
 
 Money: $0
 
-##### make_payment(cost)
+#### make_payment(cost)
 
 Parameter cost: (float) The cost of the drink.
 
