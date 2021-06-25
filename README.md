@@ -1,24 +1,24 @@
 # CoffeeMachine_OOP
 
-### Class Attributes and Methods
+## Class Attributes and Methods
 
-#### MenuItem Class
+### MenuItem Class
 
-###### Attributes:
+#### Attributes:
 
-###### name
+##### name
 
 (str) The name of the drink.
 
 e.g. “latte”
 
-###### cost
+##### cost
 
 (float) The price of the drink.
 
 e.g 1.5
 
-###### ingredients
+##### ingredients
 
 (dictionary) The ingredients and amounts required to make the drink.
 
@@ -28,7 +28,7 @@ e.g. {“water”: 100, “coffee”: 16}
 
 ##### Methods:
 
-###### get_items()
+##### get_items()
 
 Returns all the names of the available menu items as a concatenated string.
 
